@@ -1,0 +1,14 @@
+unit13\queens\model\BoardObserver.class
+unit13\practicum\SumServer.class
+unit13\queens\model\Board.class
+module-info.class
+unit13\queens\model\Queen.class
+unit13\assignment2\Hangman.class
+unit13\queens\model\Square.class
+unit13\assignment2\Hangman$Status.class
+unit13\queens\view\NQueensGUI.class
+unit13\backtracker\Configuration.class
+unit13\backtracker\Backtracker.class
+unit13\practicum\Duplexer.class
+unit13\practicum\SumClient.class
+unit13\HelloWorld.class

@@ -1,0 +1,8 @@
+R R R R Y Y B
+R R R R Y Y Y
+R R R R Y Y Y
+
+List of packed boxes with location (top-left corner), list of unpacked boxes
+Create one configuration for each unpacked box, packing it into the next available spot to the left. If there is no spot to the left, try above
+If the configuration has a total height > 3 or a total width > 7
+The unpacked list is empty

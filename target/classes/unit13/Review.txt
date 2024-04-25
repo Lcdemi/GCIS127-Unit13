@@ -1,0 +1,54 @@
+Go over all of the slides and quizzes for the written portion (put only important info on cheat sheet)
+Doing the practice problems given for the practical portion
+
+T : "W"
+U : "W"
+V : "Y"
+W : "T, U"
+X : "Y, Z"
+Y : "V, X, Z"
+Z : "X, Y"
+
+A : "B"
+B : "A, C"
+C : "E, F"
+D : "A, C, G"
+E : "C, F"
+F : "C, E"
+G : "C, D"
+
+BFS:
+Vertex: A, B, D, E, C, G, F
+Previous: null, A, A, B, D, D, E
+Path: A B E F
+
+DFS:
+Vertex: A, B, E, C, D, G, F
+Previous: null, A, B, E, C, D, G
+Path: A B E C D G F
+
+Dijkstra: (need to know specific steps)
+Vertex : Path Tuple
+A :  (0, null)  : 
+B : (inf, null) : (11, A) : (10, C)
+C : (inf, null) :  (7, D) :
+D : (inf, null) :  (5, A) :
+E : (inf, null) : (11, B) :
+F : (inf, null) : (17, E) :
+G : (inf, null) : (25, D) : (19, F) :
+Path: A D C B E F G (19)
+
+Networking, IPv4 Address, IP, TCP, hostname, localhost, loopback address, DNS, UDP, URL
+
+ServerSocket server = new ServerSocket(33075);
+Socket socket = new Socket("buttercup.rit.edu", 7611);
+Socket client = server.accept();
+OutputStream out = client.getOutputStream();
+InputStream in = client.getInputStream();
+client.close();
+
+BindException
+Connection Refused
+Connection Closed/Reset
+UnknownHost
+IOError

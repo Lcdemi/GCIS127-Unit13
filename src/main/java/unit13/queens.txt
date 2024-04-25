@@ -1,0 +1,4 @@
+State of Configuration: Queens
+How to determine if a Configuration is valid/invalid: Ask queens if they can attack newest queen
+How to determine if a Configuration is the goal: If all queens cannot attack each other
+What do the successors of each Configuration represent? How will they be created: A new scenario, created by the previous placement
